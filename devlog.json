@@ -1,7 +1,52 @@
 {
-  "projects": [],
-  "notes": {},
-  "diary": {},
+  "projects": [
+    {
+      "id": "proj_1777962174710",
+      "name": "Água Viva",
+      "desc": "Reutilizador de Água",
+      "emoji": "🌿",
+      "status": "ativo",
+      "tags": [
+        "Ecologia",
+        "Engenharia",
+        "Sustentavel"
+      ],
+      "created": "2026-05-05T06:22:54.710Z"
+    }
+  ],
+  "notes": {
+    "proj_1777962174710": []
+  },
+  "diary": {
+    "global": [
+      {
+        "id": "diary_1777962077234",
+        "date": "2026-05-05T06:21:17.234Z",
+        "body": "Hoje foi interessante"
+      }
+    ],
+    "proj_1777962174710": []
+  },
   "ideas": [],
-  "activity": []
+  "activity": [
+    {
+      "text": "Nova entrada no diário global",
+      "date": "2026-05-05T06:07:23.993Z"
+    },
+    {
+      "text": "Nova entrada no diário global",
+      "date": "2026-05-05T06:21:17.234Z"
+    },
+    {
+      "text": "Projeto \"Água Viva\" criado",
+      "date": "2026-05-05T06:22:54.710Z"
+    },
+    {
+      "text": "Nova nota em \"Água Viva\"",
+      "date": "2026-05-05T06:23:02.332Z"
+    }
+  ],
+  "checklists": {
+    "proj_1777962174710": []
+  }
 }
