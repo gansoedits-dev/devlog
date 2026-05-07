@@ -1,8 +1,292 @@
 {
-  "projects": [],
-  "notes": {},
-  "diary": {},
-  "ideas": [],
-  "activity": [],
-  "checklists": {}
+  "projects": [
+    {
+      "id": "proj_aguaviva",
+      "name": "Água Viva",
+      "emoji": "🌊",
+      "desc": "Sistema autossustentável de captação de água subterrânea com bioativação e prevenção a incêndios",
+      "status": "ativo",
+      "tags": [
+        "sustentabilidade",
+        "água",
+        "energia",
+        "inovação",
+        "ambiental"
+      ],
+      "created": "2025-09-29T00:00:00.000Z",
+      "archived": false
+    }
+  ],
+  "notes": {
+    "proj_aguaviva": [
+      {
+        "id": "note_av_resumo",
+        "title": "Resumo Executivo",
+        "body": "O Projeto Água Viva propõe um sistema inovador e autossustentável de reuso de água, focado na captação e armazenamento de recursos hídricos subterrâneos.\n\nIntegra um reservatório de grande capacidade **(10.000 a 15.000 litros)** interconectado a uma rede de tubulações de **Polietileno de Alta Densidade (PEAD)** perfuradas dispostas abaixo do solo.\n\n## Inovação Principal\n\nAo contrário dos sistemas tradicionais que dependem exclusivamente de coleta em telhados, o Água Viva capta água de forma **difusa por redes subterrâneas**, adaptando-se a múltiplas zonas climáticas e fornecendo acesso emergencial à água para operações de combate a incêndios.\n\n## Funções do Sistema\n\n- Filtração e redirecionamento de água de chuvas, irrigação e umidade do solo\n- Irrigação controlada durante períodos secos\n- Manutenção da umidade local\n- Prevenção a incêndios via aspersores distribuídos\n- Energia sustentável por painéis solares, turbinas eólicas e geradores cinéticos\n\n## Implementações Adicionais\n\n- Cultivo de musgos\n- Nebulizadores\n- Estações de carregamento solar e hidrotermal\n- Irrigação subterrânea de árvores\n- Estufas para cultivo de alimentos",
+        "date": "2025-09-29T00:00:00.000Z",
+        "pinned": true
+      },
+      {
+        "id": "note_av_problema",
+        "title": "1. Introdução — O Problema e Justificativa",
+        "body": "# 1.1 O Problema da Escassez Hídrica\n\nA escassez de água doce é um desafio global crescente, agravado pelas mudanças climáticas, crescimento populacional e urbanização.\n\n## Contexto Global\n\n- **2,2 bilhões** de pessoas não têm acesso à água potável segura (ONU Água, 2023)\n- A irrigação agrícola representa **70% das retiradas globais** de água doce\n- As mudanças climáticas estão aumentando a frequência e gravidade das secas\n- A infraestrutura hídrica urbana está envelhecida e ineficiente em muitas regiões\n\n# 1.2 Justificativa Científica e Ambiental\n\nO projeto baseia-se em princípios de:\n\n- **Hidrologia** superficial e subterrânea\n- **Engenharia de materiais** — seleção de componentes duráveis e eficientes\n- **Sistemas de automação** — integração de sensores\n- **Adaptação climática** — projetado para múltiplos biomas\n\n# 1.3 Estado da Arte\n\n**Diferencial do Água Viva:** abordagem subterrânea que permite captação difusa de água do solo, integrada com múltiplas funções bioativas e energéticas.\n\nInovações referenciadas:\n- Captação de névoa (Chile, Peru, Namíbia)\n- Irrigação por gotejamento subsuperficial (Israel)\n- Sistemas hídricos descentralizados (Países Baixos)\n\nNenhum sistema existente combina todos esses elementos **com capacidades de prevenção a incêndios**.",
+        "date": "2025-09-29T01:00:00.000Z",
+        "pinned": false
+      },
+      {
+        "id": "note_av_objetivos",
+        "title": "2. Objetivos do Projeto",
+        "body": "# Objetivo Geral\n\nDesenvolver e implementar um protótipo teórico de um sistema autossustentável de captação de água subterrânea com bioativação, visando otimizar o uso da água e promover a sustentabilidade ambiental e energética.\n\n# Objetivos Específicos\n\n- **Otimizar a Captação:** sistema eficiente para captar água via tubulações perfuradas subterrâneas\n- **Garantir Qualidade:** filtração multifásica para purificar a água coletada\n- **Assegurar Armazenamento:** reservatório escalável com monitoramento contínuo\n- **Autossustentabilidade Energética:** integrar solar e cinética, minimizando dependência da rede\n- **Ampliar Funções Bioativas:** musgos, nebulizadores, irrigação subterrânea\n- **Controle Automatizado:** sistema baseado em sensores para gestão inteligente\n- **Prevenção de Incêndios:** aspersores distribuídos para suporte emergencial",
+        "date": "2025-09-29T02:00:00.000Z",
+        "pinned": false
+      },
+      {
+        "id": "note_av_componentes",
+        "title": "3. Componentes Técnicos do Sistema",
+        "body": "# 3.1 Componentes Principais\n\n## Reservatório de Armazenamento\n- **Material:** Polietileno ou fibra de vidro com seção de observação em vidro temperado\n- **Capacidade:** 10.000 a 15.000L (escalável a partir de 1.000L residencial)\n- **Monitoramento:** sensores de volume contínuo\n- **Características:** resistente a UV, grau alimentício, revestimento antialgae\n\n## Rede de Tubulações Perfuradas\n- **Material:** PEAD (Polietileno de Alta Densidade)\n- **Diâmetro:** 25mm a 55mm\n- **Disposição:** malha ou espiral, 30–60cm de profundidade\n- **Perfuração:** ranhuras cortadas a laser\n\n## Sistema de Filtração\n**Primária:** telas de malha inox (1–2mm) com autolimpeza\n**Secundária:** areia (grosso→fino) + carvão ativado + membrana permeável + UV opcional\n\n## Bomba de Redistribuição\n- Centrífuga elétrica, 1.500 L/h, alimentação solar\n- Controle de velocidade variável, proteção contra funcionamento a seco\n\n## Sistema de Controle Automatizado\n- Controlador: Arduino ou Raspberry Pi\n- Sensores: umidade do solo, temperatura/umidade do ar, nível d'água, pH e condutividade (opcional)\n\n## Geração de Energia\n**Primárias:** painéis solares (100–300W) ou turbinas eólicas\n**Complementares:** geradores cinéticos (pás rotativas no reservatório), turbinas de fluxo\n\n## Sistema de Prevenção a Incêndios *(NOVO)*\n- Rede de aspersores no perímetro\n- Ativação automática (sensores de calor) ou manual\n- Raio de aspersão: 10–15m\n- Conexões de hidrante padrão\n- **Reserva dedicada: 20–30% do reservatório**",
+        "date": "2025-09-29T03:00:00.000Z",
+        "pinned": false
+      },
+      {
+        "id": "note_av_fluxo",
+        "title": "3.2 Fluxo Operacional — 7 Etapas",
+        "body": "# Fluxo Operacional Completo\n\n**Etapa 1 – Captação Subterrânea**\nÁgua de chuvas, irrigação ou umidade do solo absorvida pela rede PEAD a 30–60cm.\n\n**Etapa 2 – Pré-filtração**\nFiltração primária (malha inox) por gravidade — remove folhas e pedras.\n\n**Etapa 3 – Filtração Avançada**\nAreia + carvão ativado + membranas + UV opcional.\n\n**Etapa 4 – Armazenamento**\nReservatório com sensores de volume, temperatura e qualidade.\n\n**Etapa 5 – Geração de Energia**\nPainéis solares/eólicas + pás rotativas no reservatório → baterias.\n\n**Etapa 6 – Redistribuição Automatizada**\nControlador ativa bomba conforme sensores → irrigação subterrânea, nebulizadores, limpeza painéis, uso doméstico, aspersores.\n\n**Etapa 7 – Reuso Contínuo**\nÁgua usada (ex: limpeza de painéis) é recapturada e recirculada. **Circuito fechado.**",
+        "date": "2025-09-29T04:00:00.000Z",
+        "pinned": false
+      },
+      {
+        "id": "note_av_modelos",
+        "title": "4. Linha de Produtos — 3 Modelos",
+        "body": "# Água Viva Residencial\n- **Capacidade:** 1.000–3.000L\n- **Cobertura:** 50–200 m²\n- **Investimento estimado:** R$ 15.000–40.000\n- **Implantação:** 1–2 semanas\n- **Público:** residências, pequenas fazendas, propriedades suburbanas\n- **Benefício:** redução de 40–60% no uso de água municipal\n\n---\n\n# Água Viva Comunidade\n- **Capacidade:** 5.000–50.000L (compartilhado)\n- **Cobertura:** 500–2.000 m²\n- **Investimento estimado:** R$ 150.000–500.000\n- **Implantação:** 1–3 meses\n- **Benefícios:** redução por unidade, valorização imobiliária, desconto em seguros contra incêndio\n\n---\n\n# Água Viva Distrito\n- **Capacidade:** 50.000+ litros (múltiplos reservatórios em rede)\n- **Cobertura:** 5.000 m² a vários hectares\n- **Investimento estimado:** R$ 2,5 milhões+\n- **Implantação:** 6–12+ meses\n- **Benefícios:** segurança hídrica de bairro, mitigação de ilhas de calor, prevenção de enchentes",
+        "date": "2025-09-29T05:00:00.000Z",
+        "pinned": false
+      },
+      {
+        "id": "note_av_climas",
+        "title": "5. Adaptação Climática por Bioma",
+        "body": "# Climas Áridos/Semiáridos\n*(Sertão BR, Sudoeste EUA, Mediterrâneo)*\n- Prioridade: redes de captação de névoa\n- Reservatórios subterrâneos para reduzir evaporação\n- Irrigação por gotejamento de alta eficiência\n- Energia: **solar primária**\n\n# Climas Temperados/Moderados\n*(Sul do Brasil, Europa Central, Noroeste Pacífico EUA)*\n- Captação equilibrada telhado + subsuperfície\n- Ajuste sazonal de capacidade\n- Energia: solar + pequena hidrelétrica\n\n# Climas Tropicais/Alta Pluviosidade\n*(Amazônia, Sudeste Asiático, equatorial)*\n- Telhado como captação prioritária\n- Múltiplos reservatórios menores vs. um grande\n- Energia: **micro-hidro primária**, geradores cinéticos altamente eficazes",
+        "date": "2025-09-29T06:00:00.000Z",
+        "pinned": false
+      },
+      {
+        "id": "note_av_modos",
+        "title": "6. Modos Operacionais e Filosofia de Autonomia",
+        "body": "# Modos Operacionais\n\n## Modo Armazenamento (Prioridade Hídrica)\nMaximizar retenção de água. Ideal para climas áridos e fornecimento não confiável.\n\n## Modo Geração (Prioridade Energética)\nMaximizar produção de energia renovável. Ideal para áreas com forte fluxo de água.\n\n## Modo Híbrido (Equilibrado) ← *Padrão Recomendado*\nEquilibrar segurança hídrica e geração de energia.\n\n---\n\n# 7. Filosofia de Autonomia: Simplicidade acima da Complexidade\n\n## Por que evitar automação excessiva?\n- Altos custos iniciais e manutenção complexa\n- Pontos de falha eletrônica\n- Difícil de reparar em áreas remotas\n\n## Estratégia\n**Sensores mínimos essenciais:**\n- Indicador de nível de água (visual + eletrônico opcional)\n- Sensor único de umidade do solo (pode ser sonda manual)\n- Interruptores liga/desliga para a bomba\n\n**Override manual sempre disponível:**\n- Válvulas de boia mecânicas\n- Distribuição por gravidade onde possível\n- Portas de inspeção visual\n\n**Padrão Recomendado:** Automação mínima com overrides manuais e caminhos de atualização plug-in.",
+        "date": "2025-09-29T07:00:00.000Z",
+        "pinned": false
+      },
+      {
+        "id": "note_av_incendios",
+        "title": "8. Caso de Uso Crítico — Prevenção a Incêndios",
+        "body": "# Capacidades de Prevenção a Incêndios\n\n## Proteção de Perímetro\n- Aspersores nos limites da propriedade\n- Ativação automática (sensores de calor) ou manual\n- Cria barreira de umidade em períodos de risco\n\n## Resposta de Emergência\n- Conexões padrão de hidrante para bombeiros\n- **Reserva dedicada: 20–30% da capacidade total**\n- Pode abastecer helicópteros em casos extremos\n\n# Regiões-Alvo\n- **Cerrado e Pantanal (Brasil):** incêndios sazonais\n- **Califórnia/Oeste EUA:** temporada mai–out\n- **Mediterrâneo:** sul da Europa, Austrália\n- **Savana:** África, partes da Ásia\n\n# Especificações Técnicas para Suporte a Incêndios\n- Reserva mínima dedicada: **5.000L**\n- Vazão do hidrante: **1.000+ L/minuto**\n- Pressão: **mínimo 3–5 bar**\n- Conexões Storz ou rosca padrão\n- Coordenadas GPS registradas no corpo de bombeiros\n\n# Estudo de Caso: Pantanal 2024 (cenário hipotético)\n\n100 propriedades com Água Viva:\n- Reserva total distribuída: 500.000–1.500.000L\n- Proteção de 10.000+ hectares\n- Redução estimada de **30–50%** na propagação de incêndios",
+        "date": "2026-04-14T00:00:00.000Z",
+        "pinned": false
+      },
+      {
+        "id": "note_av_nevoa",
+        "title": "9. Integração com Captação de Névoa",
+        "body": "# Como Funciona\nTelas de malha vertical (polipropileno ou inox) condensam gotículas da névoa → gravidade drena para calhas → alimenta o sistema de filtração.\n\n**Condições ótimas:** áreas costeiras, regiões montanhosas, umidade >70% UR à noite, desertos com inversões de temperatura.\n\n# Produção por Região\n\n| Região | Produção Potencial |\n|--------|-------------------|\n| Sertão Nordestino | 2–10 L/m²/dia |\n| Costa Sul/Sudeste BR | 5–15 L/m²/dia |\n| Chile (Atacama) | 6–10 L/m²/dia |\n| Namíbia | 3–5 L/m²/dia |\n| Peru (Lima) | 2–6 L/m²/dia |\n| Ilhas Canárias | 5–12 L/m²/dia |",
+        "date": "2026-04-14T01:00:00.000Z",
+        "pinned": false
+      },
+      {
+        "id": "note_av_specs",
+        "title": "10. Especificações Técnicas e Fórmulas",
+        "body": "# Tabela de Componentes\n\n| Componente | Vida Útil |\n|------------|----------|\n| Tubulação PEAD | 50+ anos |\n| Reservatório (polietileno/fibra) | 30+ anos |\n| Painéis Solares | 25+ anos |\n| Bomba Centrífuga | 10–15 anos |\n| Turbinas Eólicas | 15–20 anos |\n| Baterias Lítio | 5–10 anos |\n| Sensores | 5–8 anos |\n\n# Fórmulas de Cálculo\n\n## Captação de Água\n**V = A × P × ff**\n- V = Volume anual coletado (m³)\n- A = Área do Terreno (m²)\n- P = Precipitação média anual (m)\n- ff = Eficiência do Sistema (0,70 a 0,90)\n\n*Exemplo residencial:* A=100m², P=1,2m/ano, ff=0,80 → **V = 96 m³/ano = 96.000L/ano**\n\n## Dimensionamento do Reservatório\n**Capacidade = V × (0,20 a 0,30)**\n*Exemplo:* 96.000 × 0,25 = **24.000L** (dois tanques de 12.000L)\n\n## Eficiência Energética\n- Geração solar: 200W × 5h = 1.000 Wh/dia\n- Consumo bomba: 100W × 2h = 200 Wh/dia\n- Controlador: 10W × 24h = 240 Wh/dia\n- **Excedente: 560 Wh/dia** → armazenado para dias nublados",
+        "date": "2026-04-14T02:00:00.000Z",
+        "pinned": false
+      },
+      {
+        "id": "note_av_impacto",
+        "title": "11. Resultados Esperados e Impacto",
+        "body": "# Impacto Ambiental\n- Redução de **40–60%** na demanda de água potável residencial\n- Mais de **100.000L/ano** economizados por domicílio\n- Redução de temperatura de **2–4°C** em áreas localizadas\n- Redução de **20–30%** nas inundações durante chuvas intensas\n- Redução estimada de **30–50%** na propagação de incêndios\n\n# Impacto Econômico\n\n| Escala | Redução em Contas | Retorno do Investimento | Redução no Seguro |\n|--------|------------------|------------------------|------------------|\n| Residencial | 30–50% | 3–5 anos | 10–20% |\n| Comunitário | 20–40% por unidade | 5–10 anos | 10–20% |\n| Distrital | Variável | 10–15 anos | Significativa |\n\n# Impacto Social\n- Reserva de emergência de 1.000–15.000L por instalação\n- Empoderamento comunitário e independência de recursos\n- Maior produtividade agrícola em áreas com escassez hídrica",
+        "date": "2026-04-14T03:00:00.000Z",
+        "pinned": false
+      },
+      {
+        "id": "note_av_negocios",
+        "title": "14. Modelo de Negócios e Financiamento",
+        "body": "# Fontes de Receita\n\n## Produtos\n- Residencial: **R$ 15.000–40.000**\n- Comunidade: **R$ 150.000–500.000**\n- Distrito: sob demanda\n\n## Módulos Adicionais\n- Redes de névoa: R$ 2.500–10.000\n- Sensores avançados: R$ 1.000–4.000\n- Upgrade cinético: R$ 5.000–15.000\n- **Pacote prevenção a incêndios: R$ 7.500–25.000**\n\n## Serviços Recorrentes\n- Instalação: 15–25% do produto\n- Manutenção anual: R$ 1.000–5.000/ano\n- Monitoramento remoto: R$ 50–250/mês\n\n# Estratégia de Financiamento\n\n**Estágio 1 – Protótipo (R$ 100k–250k)**\nInvestimento pessoal, crowdfunding (Catarse/Kickstarter), bolsas ambientais, parcerias universitárias.\n\n**Estágio 2 – Piloto (R$ 500k–1,5M)**\nInvestidores de impacto, FINEP/BNDES, pré-vendas, aceleradoras cleantech.\n\n**Estágio 3 – Crescimento (R$ 5–25M)**\nCapital de risco cleantech, contratos públicos, parcerias com construtoras.\n\n**Estágio 4 – Escala (R$ 50M+)**\nMercados públicos, expansão internacional, BID/Banco Mundial.\n\n# Modelo Social\n- Componentes de **código aberto** para implementações sem fins lucrativos\n- Precificação diferenciada para comunidades de baixa renda\n- Capacitação de técnicos comunitários",
+        "date": "2026-04-14T04:00:00.000Z",
+        "pinned": false
+      },
+      {
+        "id": "note_av_riscos",
+        "title": "12. Riscos e Mitigações",
+        "body": "# Análise de Riscos\n\n| Risco | Probabilidade | Impacto | Mitigação |\n|-------|--------------|---------|----------|\n| Entupimento de tubulações/filtros | Média | Alto | Filtros acessíveis, manutenção trimestral |\n| Falha eletrônica | Média | Médio-Alto | Override manual, componentes redundantes |\n| Contaminação da água | Baixa-Média | Alto | Filtração multifásica, UV opcional, testes mensais |\n| Insuficiência energética | Baixa-Média | Médio | Bateria 3–5 dias, geração híbrida |\n| Captação inadequada na seca | Média | Alto | Reservatório conservador, suplemento de névoa |\n| Dano por incêndio | Baixa-Média | Alto | Componentes subterrâneos (resistentes ao fogo) |\n| Intrusão de raízes | Média (longo prazo) | Médio | Barreiras antirraiztização, câmera periódica |\n| Não conformidade regulatória | Baixa-Média | Alto | Pesquisa prévia, consulta jurídica |\n\n# Vantagens vs. Limitações\n\n**Vantagens:** autossustentabilidade, captação difusa, modularidade, filtração multifásica, preparação para emergências.\n\n**Limitações:** custo inicial moderado-alto (ROI 3–10 anos), necessita solo para tubulações, manutenção periódica, dependência climática, desafios regulatórios variáveis.",
+        "date": "2026-04-14T05:00:00.000Z",
+        "pinned": false
+      },
+      {
+        "id": "note_av_cronograma",
+        "title": "13. Cronograma de Implementação",
+        "body": "# Fase 1 – Validação do Protótipo (6–12 meses)\n**Objetivo:** construir protótipo funcional 100–500L.\n\n**Critérios de Sucesso:**\n- Sistema capta >70% do volume teórico\n- Qualidade da água atende padrões não potáveis\n- Geração de energia compensa consumo da bomba\n- Nenhuma falha crítica no período de teste\n\n# Fase 2 – Piloto Residencial (12–18 meses)\n**Objetivo:** implantar 3–5 sistemas reais, coletar dados, refinar procedimentos.\n\n**Critérios de Sucesso:**\n- Satisfação do usuário ≥80%\n- Economia de água demonstrada (≥40%)\n- Operação confiável com manutenção mínima\n\n# Fase 3 – Escalonamento Comunitário (18–36 meses)\nImplementar escala condomínio/comunidade, validar prevenção a incêndios, demonstrar viabilidade econômica.\n\n# Fase 4 – Integração Urbana/Distrital (36+ meses)\nEngajar autoridades municipais, obter financiamento público, criar blueprint urbano escalável.",
+        "date": "2026-04-14T06:00:00.000Z",
+        "pinned": false
+      },
+      {
+        "id": "note_av_manutencao",
+        "title": "Apêndice — Manutenção e Instalação",
+        "body": "# Cronograma de Manutenção\n\n**Mensal:**\n- Inspeção visual do reservatório e tubulações\n- Verificação das telas de filtro\n- Teste da bomba\n- Conferência das leituras dos sensores\n\n**Trimestral:**\n- Limpeza das telas de filtração primária\n- Substituição do carvão ativado (se degradado)\n- Inspeção das redes de névoa (se aplicável)\n- Verificação de eletrólito das baterias chumbo-ácido\n\n**Anual:**\n- Inspeção completa do sistema\n- Teste profissional de qualidade da água\n- Substituição das membranas filtrantes\n- Calibração dos sensores\n- Inspeção das tubulações (câmera)\n\n---\n\n# Checklist de Instalação\n\n**Pré-instalação:**\n- [ ] Avaliação do local (solo, inclinação, lençol freático)\n- [ ] Verificação de conformidade regulatória\n- [ ] Aquisição de componentes\n- [ ] Treinamento do usuário agendado\n\n**Instalação:**\n- [ ] Escavação da rede subterrânea\n- [ ] Instalação do reservatório com sensores\n- [ ] Conexão do sistema de filtração\n- [ ] Instalação da bomba e controle\n- [ ] Fiação solar e baterias\n- [ ] Teste de todos os componentes\n- [ ] Comissionamento com o usuário\n\n**Pós-instalação:**\n- [ ] Documentar configuração do sistema\n- [ ] Estabelecer cronograma de manutenção\n- [ ] Monitoramento intensivo no 1º mês",
+        "date": "2026-04-14T07:00:00.000Z",
+        "pinned": false
+      }
+    ]
+  },
+  "diary": {
+    "proj_aguaviva": [
+      {
+        "id": "diary_av_inicio",
+        "date": "2025-09-29T00:00:00.000Z",
+        "body": "Início formal do projeto. Documento versão 1.0 criado com a estrutura base do Água Viva.\n\nConceito central definido: captação subterrânea difusa via tubulações PEAD como diferencial em relação às cisternas tradicionais.\n\nEstrutura do documento organizada em resumo executivo, introdução, objetivos e descrição técnica do sistema."
+      },
+      {
+        "id": "diary_av_v2",
+        "date": "2026-04-14T00:00:00.000Z",
+        "body": "Atualização para versão 2.0 do documento — grande expansão de conteúdo.\n\nNovidades adicionadas nesta versão:\n- Sistema de prevenção a incêndios (novo caso de uso crítico)\n- Estratégia de linha de produtos em 3 modelos (Residencial, Comunidade, Distrito)\n- Estratégia de adaptação climática por bioma\n- Modos operacionais (Armazenamento, Geração, Híbrido)\n- Filosofia de autonomia: simplicidade acima da complexidade\n- Integração com captação de névoa\n- Modelo de negócios e estratégia de financiamento por estágios\n- Estudo de caso hipotético: Pantanal 2024\n\nStatus atual: Protótipo Teórico — buscando parceiros de validação."
+      }
+    ],
+    "global": []
+  },
+  "ideas": [
+    {
+      "id": "idea_av_blockchain",
+      "title": "Blockchain para créditos hídricos comunitários",
+      "tag": "Tecnologia",
+      "body": "Usar blockchain para registrar e transacionar créditos de água entre propriedades com Água Viva. Propriedades que geram excedente podem vender créditos para vizinhos. Mencionado nas perspectivas futuras do documento.",
+      "date": "2026-04-14T00:00:00.000Z"
+    },
+    {
+      "id": "idea_av_ia",
+      "title": "IA para previsão climática e otimização de captação",
+      "tag": "Tecnologia",
+      "body": "Integrar algoritmos de previsão climática para antecipar períodos de chuva e otimizar o ciclo de captação/redistribuição automaticamente. Perspectiva futura mencionada no documento.",
+      "date": "2026-04-14T01:00:00.000Z"
+    },
+    {
+      "id": "idea_av_opensource",
+      "title": "Plataforma open-source de designs e planos",
+      "tag": "Negócios",
+      "body": "Disponibilizar gratuitamente os designs básicos e planos de instalação do Água Viva para implementações sem fins lucrativos. Criar uma comunidade global de construtores e técnicos certificados.",
+      "date": "2026-04-14T02:00:00.000Z"
+    },
+    {
+      "id": "idea_av_ecolodge",
+      "title": "Parceria com ecolodges e turismo sustentável",
+      "tag": "Mercado",
+      "body": "Ecolodges são mercado secundário ideal: visibilidade turística, valores alinhados, boa divulgação orgânica e potencial para turistas verem o sistema funcionando — marketing natural.",
+      "date": "2026-04-14T03:00:00.000Z"
+    },
+    {
+      "id": "idea_av_indigena",
+      "title": "Territórios indígenas em zonas de risco de incêndio",
+      "tag": "Impacto Social",
+      "body": "Territórios indígenas no Cerrado e Pantanal são mercado prioritário para o módulo de prevenção a incêndios. Possibilidade de financiamento via fundações ambientais e organizações indigenistas.",
+      "date": "2026-04-14T04:00:00.000Z"
+    }
+  ],
+  "activity": [
+    {
+      "text": "Projeto \"Água Viva\" criado",
+      "date": "2025-09-29T00:00:00.000Z"
+    },
+    {
+      "text": "Nova nota em \"Água Viva\": Resumo Executivo",
+      "date": "2025-09-29T00:10:00.000Z"
+    },
+    {
+      "text": "Nova nota em \"Água Viva\": Introdução e Problema",
+      "date": "2025-09-29T01:00:00.000Z"
+    },
+    {
+      "text": "Nova nota em \"Água Viva\": Componentes Técnicos",
+      "date": "2025-09-29T03:00:00.000Z"
+    },
+    {
+      "text": "Nova entrada no diário de \"Água Viva\"",
+      "date": "2025-09-29T00:00:00.000Z"
+    },
+    {
+      "text": "Projeto \"Água Viva\" atualizado — versão 2.0",
+      "date": "2026-04-14T00:00:00.000Z"
+    },
+    {
+      "text": "Nova nota em \"Água Viva\": Prevenção a Incêndios",
+      "date": "2026-04-14T00:00:00.000Z"
+    },
+    {
+      "text": "Nova nota em \"Água Viva\": Linha de Produtos",
+      "date": "2026-04-14T00:05:00.000Z"
+    },
+    {
+      "text": "Nova nota em \"Água Viva\": Modelo de Negócios",
+      "date": "2026-04-14T04:00:00.000Z"
+    },
+    {
+      "text": "Nova ideia: \"Blockchain para créditos hídricos\"",
+      "date": "2026-04-14T00:00:00.000Z"
+    },
+    {
+      "text": "Nova ideia: \"IA para previsão climática\"",
+      "date": "2026-04-14T01:00:00.000Z"
+    },
+    {
+      "text": "Projeto \"Água Viva\" atualizado",
+      "date": "2026-05-07T23:37:17.875Z"
+    }
+  ],
+  "checklists": {
+    "proj_aguaviva": [
+      {
+        "id": "chk_av1",
+        "text": "Construir protótipo funcional 100–500L (Fase 1)",
+        "done": false
+      },
+      {
+        "id": "chk_av2",
+        "text": "Testar captação subterrânea em diferentes tipos de solo",
+        "done": false
+      },
+      {
+        "id": "chk_av3",
+        "text": "Validar eficácia do sistema de filtração",
+        "done": false
+      },
+      {
+        "id": "chk_av4",
+        "text": "Medir potencial de geração cinética de energia",
+        "done": false
+      },
+      {
+        "id": "chk_av5",
+        "text": "Buscar parceiro universitário para pesquisa",
+        "done": false
+      },
+      {
+        "id": "chk_av6",
+        "text": "Lançar crowdfunding no Catarse ou Kickstarter",
+        "done": false
+      },
+      {
+        "id": "chk_av7",
+        "text": "Preparar dossiê para submissão FINEP/BNDES",
+        "done": false
+      },
+      {
+        "id": "chk_av8",
+        "text": "Implantar 3–5 pilotos residenciais (Fase 2)",
+        "done": false
+      },
+      {
+        "id": "chk_av9",
+        "text": "Registrar coordenadas GPS no corpo de bombeiros local",
+        "done": false
+      },
+      {
+        "id": "chk_av10",
+        "text": "Verificar regulamentações locais de reuso de água",
+        "done": false
+      }
+    ]
+  }
 }
